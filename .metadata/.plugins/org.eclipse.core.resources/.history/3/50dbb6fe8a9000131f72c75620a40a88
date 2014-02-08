@@ -11,19 +11,19 @@
         android:layout_height="wrap_content"
         android:text="@string/main_title" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="fill_porent"
         android:layout_height="wrap_content"
 		android:text="@string/continue_label" />
     <Button 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
         android:text="@string/new_game_label" />
     <Button 
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/about_label" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/exit_label" />
     
