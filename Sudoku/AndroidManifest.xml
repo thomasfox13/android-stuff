@@ -23,7 +23,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".About"
-            android:label="@string/about_title">          
-        </activity>   
+            android:label="@string/about_title"     
+            android:theme="@android:style/Theme.Dialog" >     
+        </activity>
+        <activity android:name=".NewGame"
+            android:label="@string/new_title">
+        </activity>
+        <activity android:name=".Prefs"
+            android:label="@string/settings_title">
+        </activity>
 	</application>
 </manifest>
